@@ -1,0 +1,108 @@
+
+.crd-cls{
+text-align: center !important;
+background: white;
+border-radius: 12px;
+text-align: center;
+margin-top: 2%;
+}
+.prof-cls{
+  width:100% !important;
+  padding: 2% !important;
+}
+.profGrid{
+  /* margin-left: -1.5%!important; */
+  padding-left: 0%;
+  padding-right: 0%;
+  /* width:59%!important;  */
+}
+.ui.card{
+  width:313px 
+}
+.Img_cls{
+position: relative!important;
+left: 50%;
+transform: translateX(-50%) translateY(0%);
+max-width: 50%;
+max-height: 50%;
+}
+
+
+.spanClass{
+  background: #003b22;
+  color: white;
+  /* height: 6vh; */
+  padding: 1%;
+  /* /padding-top: 2%; */
+  font-weight: bold;
+  font-size: 18px;
+}
+.p_cls{
+  font-size: 16px;
+    color: black;
+    margin-top: 3%;
+}
+.ui.rating .active.icon{
+  color:#003b22;
+}
+
+.lst_cls{
+  /* dplay: ruby; */
+  padding: 20px;
+}
+.iconclass{
+animation: icon 3s infinite;
+transform: rotate();
+animation-direction: alternate;
+opacity: .7;
+}
+@keyframes icon {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.ui.rating {
+
+  opacity: 1;
+}
+
+.ui.rating:hover {
+  opacity: 0.2;
+}
+.css-hip9hq-MuiPaper-root-MuiAppBar-root{
+  width:100% !important;
+}
+.css-1mcnwpj-MuiList-root{
+  max-width: 600px !important;
+}
+.pagination {
+  margin: 15px auto;
+  display: flex;
+  list-style: none;
+  outline: none;
+}
+.pagination > .active > a{
+  background-color: #47ccde ;
+  border-color: #47ccde ;
+  color: #fff;
+}
+.pagination > li > a{
+  border: 1px solid #47ccde ;
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+  background-color: #47ccde ;
+  border-color: #47ccde;
+  outline: none ;
+}
+.pagination > li > a, .pagination > li > span{
+  color: #47ccde
+}
+.pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
+  border-radius: unset
+}
